@@ -1,0 +1,638 @@
+
+*{
+    margin: 0%;
+  
+    padding: 0%;
+
+}
+
+.contact{
+    width: fit-content;
+    height: 300px;
+    position: fixed;
+    left: 95%;
+    top: 50%;
+}
+
+.phone{
+    position: relative;
+    top: 50%;
+}
+.phone:hover img{
+    width:50px;
+    height: 50px;
+}
+.zalo:hover img{
+    width:50px;
+    height: 50px;
+}
+
+
+
+
+.col-md-6  a{
+    text-decoration: none;
+    color: white;
+}
+.col-md-6  a:hover{
+    color: yellow;
+}
+ul{
+    display: flex;
+    margin-top: 1%;
+    
+   
+}
+
+
+.col-md-3 a{
+    color: #e56;
+}
+ul li{
+    list-style: none;
+    flex: 25%;
+    text-align:center;
+}
+.a li a{
+    text-decoration:none;
+    color: rgb(143, 136, 136);
+}
+ul li a b:hover{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.header-1{
+    border-bottom:red solid;
+    height: 200px;
+}
+.row-header1{
+    display: flex;
+    height: 50%;
+}
+.row-header1 .column{
+    background: red;
+    flex: 35% 25% 25% 25%;
+}
+/* HẾT PHẦN HEADER-------------------- */
+/* ___________CHUYỂN SANG PHẦN CONTENT=--------------- */
+
+.menu-baner{
+    display: flex;
+    height: 450px;
+  
+}
+/* phần bên trái */
+.menu-baner .left{
+    width: 30%;
+    height: 100%;
+}
+.menu{
+    background: white ;
+    width: 81.5%;
+    position: relative;
+    left:10.6%;
+    top: -0.1px;
+}
+.menu-frame{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.menu .menu-frame:hover .menu-name{
+    color:#e56;
+}
+.menu .menu-frame:hover .glyphicon{
+    color:#e56;
+}
+.menu .menu-frame table{
+    position: fixed;
+    left: 28%;
+    top: 20.4%;
+    background:whitesmoke;
+    width: 775.5px;
+    height:420px;
+    display: none;
+}
+.menu-frame table th{
+    width: 20%;
+}
+.menu-frame table th{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.menu-frame table td{
+    padding-left: 3%;
+    padding-top: 0.5%;
+}
+.menu-frame table th:hover{
+    color: #d82e4d;
+}
+.menu-frame table td:hover{
+    color: #d82e4d;
+}
+
+
+.menu-frame:hover table{
+    display: inline;
+}
+
+ /* end  left part------------------------------ */
+
+
+ .menu-baner .right{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    width: 70%;
+    height:100%;
+  
+}
+.main-baner{
+    padding: 3%;
+    width:100%;
+    height:92%;
+}
+.main-baner img{
+    width: 100%;
+    height: 100%;
+}
+.main-baner:hover{
+    padding:25px;
+}
+.extra-baner{
+    padding: 5%;
+    width:100%;
+    height: 92%;
+  
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   
+}
+
+.extra-baner .baner1{
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+}
+.extra-baner .baner1 img:hover{
+    padding:0.3%;
+}
+.extra-baner .baner2 img:hover{
+    padding:0.3%;
+}
+.extra-baner .baner2{
+    padding: 2%;
+    height: 100%;
+    width:100%;
+}
+ .extra-baner .baner1 img{
+    width: 100%;
+    height: 100%;
+ }
+ .extra-baner .baner2 img{
+    width: 100%;
+    height: 84%;
+ }
+
+/* end right */
+
+
+/* collectinons section ---------------- */
+
+.collections_section{
+    height: 150px;   
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+.collection-item{
+    height: 100%;
+    width:10%;
+    padding:20px;
+}
+
+.item-picture{
+    height: 90%;
+    width: 100%;
+}
+.item-name{
+    height: 10%;
+    width: 100%;
+}
+.item-name a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.item-name a:hover{
+    color: #d82e4d;
+}
+
+/* the end collections section-------------------- */
+.rowdm{
+    display: flex;
+    width: 100%;
+  
+}
+.rowdm .col{
+    margin: 2.5%;
+    position: relative;
+    content: center;
+}
+.coupon-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e56;
+}
+.coupon-desca{
+    font-size: 13px;
+    line-height: 1.2;
+    color: #727272;
+    padding-bottom: 7px;
+}
+.row-coupon{
+    display: flex;
+    justify-content: center;
+}
+
+.flashsale{
+    background: #d3232a;
+    height: 600px;
+}
+
+ .flashsale .container{
+    background: white;
+    border-radius: 10px 10px 10px 10px ;
+    height:90%;
+    width: 98%;
+    margin-top: 1%;
+    position: relative;
+    top: 5%;
+
+}
+#Ud{
+    color: black;
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Ud :hover{
+    color: #e56;
+}
+.content{
+    height:60%;
+}
+.flashsale .product{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+    height: 80%;
+   
+}
+
+
+.khungsanpham{
+    
+    margin: 3% ;
+    padding: 5px;
+    height: 80%;
+}
+.product-frame{
+    height: 60%;
+    width: 100%;
+}
+.product-frame img{
+    height: 100%;
+    width : 100%;
+    padding: 2px;
+}
+.product-info{
+    height: 30%;
+    margin-top: 4%;
+}
+.product-vendor{
+    color: #7a8189 !important;
+    letter-spacing: 1.4px;
+    font-size: 12px;
+}
+
+.product-name a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+position: relative;
+top:-20px;
+
+}
+.product-name:hover{
+    color: #e56;
+}
+.product-name a:hover{
+    color: #d3232a;
+}
+.price-box{
+    position: relative;
+    top: -27px;
+}
+.price-box .price{
+    font-weight: bold;
+    color: #d82e4d;
+}
+.price-box button{
+    position: absolute;
+    right: 6px; 
+    background: #d82e4d;
+    border: #d82e4d solid 1px ;
+    border-radius: 99999px; 
+    color: #fff;
+}
+
+.flashsale__progressbar{
+    background: #e5677d;
+    width: 80%;
+    height: 10px;
+    border-radius: 99999px;
+    display: flex;
+    justify-content:flex-start;
+}
+.flashsale__progressbar .flashsale___percent{
+    width: 10%;
+    height: 100%;
+    background-color: #d3232a;
+    border-radius: 99999px;
+}
+
+
+
+
+
+
+.footers{
+    height: 10%;
+}
+.footers .row {
+    height: 100%;
+    position: relative;
+    top: 150%;
+
+}
+.footers .row .more button{
+    border-radius: 99999px !important; 
+    border: solid #e56 1px ;
+    padding: 2px 15px;
+    margin-bottom: 3px;
+    color: rgb(12, 10, 10);
+    display: flex;
+    background:none;
+    height:50px;
+}
+.footers .row .more {
+    display: flex;
+    justify-content: center;
+}
+.footers .row .more button a{
+    text-decoration: none;
+    color: #e56;
+    position: relative;
+    top: 10px;
+}
+.footers .row .more button:hover{
+   background: #e56;
+   
+   
+}
+.footers .row .more button:hover a{
+    color: white;
+}
+
+
+
+
+.item-product-main .img{
+    height: 60%;
+     width: 60%;
+}
+.item-product-main .img img{
+    width:100% ;
+    height:100%;
+}
+.product-infomation a{
+    text-decoration:none;
+    color:black;
+}
+.product-infomation a:hover{
+    text-decoration:none;
+    color:#e56;
+}
+.product-infomation span.price{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    color: #d82e4d;
+    font-weight: bold ;
+}
+.product-item{
+    position: relative;
+    right: -30px;
+    background: #e56;
+    border-radius: 99999px;
+    color: white;
+    
+}
+
+.tag-item{
+    padding: 4px 8px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 400;
+   
+    background:#ffdb83 ;
+}
+.tag-item a{
+    text-decoration: none;
+    color: black;
+}
+.item-imformation{
+    position: absolute;
+    top:50px;
+}
+
+
+
+
+.span-text-center{
+    width:60%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.span-text-center a{
+    width: 15%; 
+    height: 30px;
+     border-radius:99999px;
+     border: #e5677d solid 1px; 
+    color: #d82e4d;
+}
+.span-text-center a:hover{
+   background: #e56;
+   color: white;
+   text-decoration:none;
+}
+.span-text-center h4 a {
+    text-decoration: none;
+    color: #e56;
+}
+
+.span-text-center h4 a {
+    text-decoration: none;
+    color: #e56;
+}
+
+
+.baner{
+    height: 176px;
+    width: 1410px;
+    text-align: center; 
+    margin-top: 10%;
+    position: relative;
+    left: 5%;
+    margin-bottom: 5%;
+}
+.baner img:hover{
+   width: 97%;
+   height: 97%;
+}
+
+a.link{
+    text-decoration:none ;
+    color:#000000;
+
+}
+ .title-modul-main .tabs{
+    display: flex;
+    justify-content:center;
+}
+.ega-small{
+    border-radius:99999px;
+    height:30px;
+    background: #dce1e7;  
+}
+.ega-small:hover{
+    background:#d82e4d;
+    color:WHITE;}
+
+.e-tabs{
+   
+    height:500px;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.e-tabs .product-col .product-frame{
+    height: 70%;
+    width:100%;
+}
+
+.e-tabs .product-frame img{
+    height: 100%;
+    width: 100%;
+}
+
+.product-item-cta{
+    display: grid;
+    grid-template-columns: 80% 1fr;
+}
+.product-item-cta .price button span{
+    color: white;
+}
+.product-main{
+    padding: 10px;
+}
+.product-main:hover .product-frame img {
+    position: relative ;
+    width: 99%;
+    height:99%;
+    border-style:ridge;
+}
+
+
+/*  hết phần content chuyển sang phần footer */
+.footer{
+    margin-top:10%;
+    display: grid;
+    grid-template-columns:30% 20% 20% 30% ;
+    background: #efefefef;
+}
+.footer .frame img{
+   width: 150px;
+   height: 32px;
+}
+    
+.about .single-contact{
+    margin-top: 5%;
+}
+.follow-option {
+    margin-top: 5%;
+    position: relative;
+    right: 40px;
+    margin-bottom: 3px;
+}
+.about .single-contact .follow-option  ul{
+    display: grid;
+    grid-template-columns:10% 10% 10% ;
+    
+    
+}
+.follow-option ul li a img{
+    width: 24px;
+    height: 24px;
+}
+
+.chinhsanh {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.chinhsach li a{
+    text-decoration: none;
+    color: #000000;
+   
+}
+li{
+    list-style-type: none;
+}
+
+.chinhsach li a:hover{
+    color: #e5677d;
+}
+.chinhsach li {
+    margin-top: 5%;
+}
+.dangky form .input-group{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-group input{
+    border-radius:50px 1px 1px 50px 
+}
+.dangky form .input-group .input-group-addon{
+    border-radius: 1px  50px 50px 1px;
+}
+.input-group-addon{
+    background: rgb(243, 161, 8);
+    color: #d3232a;
+    cursor: pointer;
+}
+.input-group-addon:hover{
+    background: rgb(230, 227, 56);
+    color: #d3232a;
+}
+.dangky h4{
+    margin-bottom:30px;
+}
